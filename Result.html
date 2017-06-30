@@ -1,0 +1,307 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"><html>
+  <head>
+    <title>xUnit.net Test Results</title>
+    <style type="text/css">
+          body { font-family: Calibri, Verdana, Arial, sans-serif; background-color: White; color: Black; }
+          h2,h3,h4,h5 { margin: 0; padding: 0; }
+          h3 { font-weight: normal; }
+          h4 { margin: 0.5em 0; }
+          h5 { font-weight: normal; font-style: italic; margin-bottom: 0.75em; }
+          h6 { font-size: 0.9em; font-weight: bold; margin: 0.5em 0 0 0.75em; padding: 0; }
+          pre,table { font-family: Consolas; font-size: 0.8em; margin: 0 0 0 1em; padding: 0; }
+          table { padding-bottom: 0.25em; }
+          th { padding: 0 0.5em; border-right: 1px solid #bbb; text-align: left; }
+          td { padding-left: 0.5em; }
+          .divided { border-top: solid 1px #f0f5fa; padding-top: 0.5em; }
+          .row, .altrow { padding: 0.1em 0.3em; }
+          .row { background-color: #f0f5fa; }
+          .altrow { background-color: #e1ebf4; }
+          .success, .failure, .skipped { font-family: Arial Unicode MS; font-weight: normal; float: left; width: 1em; display: block; }
+          .success { color: #0c0; }
+          .failure { color: #c00; }
+          .skipped { color: #cc0; }
+          .timing { float: right; }
+          .indent { margin: 0.25em 0 0.5em 2em; }
+          .clickable { cursor: pointer; }
+          .testcount { font-size: 85%; }
+        </style>
+    <script language="javascript">
+          function ToggleClass(id) {
+            var elem = document.getElementById(id);
+            if (elem.style.display == "none") {
+              elem.style.display = "block";
+            }
+            else {
+              elem.style.display = "none";
+            }
+          }
+        </script>
+  </head>
+  <body>
+    <h3 class="divided">
+      <b>Assemblies Run</b>
+    </h3>
+    <div>E:\Learning Center\Unit Testing\TDD\MyLibrary.Facts\bin\Debug\MyLibrary.Facts.DLL</div>
+    <h3 class="divided">
+      <b>Summary</b>
+    </h3>
+    <div>
+          Tests run: <a href="#all"><b>41</b></a> —
+          
+            Failures: <a href="#failures"><b>1</b></a>,
+          
+          Run time: <b>0.329s</b>,
+          Finished: <b>06/25/2017 16:16:47</b></div>
+    <br />
+    <h2>
+      <a id="failures" />Failed tests
+          </h2>
+    <div class="row">
+      <span class="timing">0.0029373s
+        </span>
+      <span class="failure">✘</span>
+       MyLibrary.Facts.DayHelperFact+ToFriendlyText.ContinuouslyDays<br clear="all" /><pre>Assert.Equal() Failure\r\n           ↓ (pos 1)\r\nExpected: 1-3\r\nActual:   1 and 3\r\n           ↑ (pos 1)</pre><pre>   at MyLibrary.Facts.DayHelperFact.ToFriendlyText.ContinuouslyDays() in E:\Learning Center\Unit Testing\TDD\MyLibrary.Facts\DayHelperFact.cs:line 81</pre></div>
+    <br />
+    <h2>
+      <a id="all" />All tests
+        </h2>
+    <h5>Click test class name to expand/collapse test details</h5>
+    <h3>
+      <span class="timing">0.038s
+            </span>
+      <span class="clickable" onclick="ToggleClass('classID0EZ')" ondblclick="ToggleClass('classID0EZ')">
+        <span class="failure">✘</span>
+               MyLibrary.Facts.DayHelperFact+ToFriendlyText
+               <span class="testcount">
+                (36 tests)
+              </span></span>
+      <br clear="all" />
+    </h3>
+    <div class="indent" id="classID0EZ">
+      <div class="row">
+        <span class="timing">0.0002556s
+        </span>
+        <span class="success">✔</span>
+       MyLibrary.Facts.DayHelperFact+ToFriendlyText.ContinuouslyAndSingleDays<br clear="all" /></div>
+      <div class="altrow">
+        <span class="timing">0.0029373s
+        </span>
+        <span class="failure">✘</span>
+       MyLibrary.Facts.DayHelperFact+ToFriendlyText.ContinuouslyDays<br clear="all" /><pre>Assert.Equal() Failure\r\n           ↓ (pos 1)\r\nExpected: 1-3\r\nActual:   1 and 3\r\n           ↑ (pos 1)</pre><pre>   at MyLibrary.Facts.DayHelperFact.ToFriendlyText.ContinuouslyDays() in E:\Learning Center\Unit Testing\TDD\MyLibrary.Facts\DayHelperFact.cs:line 81</pre></div>
+      <div class="row">
+        <span class="timing">0.0001739s
+        </span>
+        <span class="success">✔</span>
+       MyLibrary.Facts.DayHelperFact+ToFriendlyText.EmptyArray_EmptyString<br clear="all" /></div>
+      <div class="altrow">
+        <span class="timing">0.0004991s
+        </span>
+        <span class="success">✔</span>
+       MyLibrary.Facts.DayHelperFact+ToFriendlyText.InvalidDay_ThrowException<br clear="all" /></div>
+      <div class="row">
+        <span class="timing">0.0014089s
+        </span>
+        <span class="success">✔</span>
+       MyLibrary.Facts.DayHelperFact+ToFriendlyText.InvalidDay_ThrowException_2<br clear="all" /></div>
+      <div class="altrow">
+        <span class="timing">0.032734s
+        </span>
+        <span class="success">✔</span>
+       MyLibrary.Facts.DayHelperFact+ToFriendlyText.SingleDay(day: 1, expected: \"1\")<br clear="all" /></div>
+      <div class="row">
+        <span class="timing">0.000002s
+        </span>
+        <span class="success">✔</span>
+       MyLibrary.Facts.DayHelperFact+ToFriendlyText.SingleDay(day: 10, expected: \"10\")<br clear="all" /></div>
+      <div class="altrow">
+        <span class="timing">0.0000044s
+        </span>
+        <span class="success">✔</span>
+       MyLibrary.Facts.DayHelperFact+ToFriendlyText.SingleDay(day: 11, expected: \"11\")<br clear="all" /></div>
+      <div class="row">
+        <span class="timing">0.0000036s
+        </span>
+        <span class="success">✔</span>
+       MyLibrary.Facts.DayHelperFact+ToFriendlyText.SingleDay(day: 12, expected: \"12\")<br clear="all" /></div>
+      <div class="altrow">
+        <span class="timing">0.000002s
+        </span>
+        <span class="success">✔</span>
+       MyLibrary.Facts.DayHelperFact+ToFriendlyText.SingleDay(day: 13, expected: \"13\")<br clear="all" /></div>
+      <div class="row">
+        <span class="timing">0.000002s
+        </span>
+        <span class="success">✔</span>
+       MyLibrary.Facts.DayHelperFact+ToFriendlyText.SingleDay(day: 14, expected: \"14\")<br clear="all" /></div>
+      <div class="altrow">
+        <span class="timing">0.0000016s
+        </span>
+        <span class="success">✔</span>
+       MyLibrary.Facts.DayHelperFact+ToFriendlyText.SingleDay(day: 15, expected: \"15\")<br clear="all" /></div>
+      <div class="row">
+        <span class="timing">0.0000016s
+        </span>
+        <span class="success">✔</span>
+       MyLibrary.Facts.DayHelperFact+ToFriendlyText.SingleDay(day: 16, expected: \"16\")<br clear="all" /></div>
+      <div class="altrow">
+        <span class="timing">0.0000024s
+        </span>
+        <span class="success">✔</span>
+       MyLibrary.Facts.DayHelperFact+ToFriendlyText.SingleDay(day: 17, expected: \"17\")<br clear="all" /></div>
+      <div class="row">
+        <span class="timing">0.000002s
+        </span>
+        <span class="success">✔</span>
+       MyLibrary.Facts.DayHelperFact+ToFriendlyText.SingleDay(day: 18, expected: \"18\")<br clear="all" /></div>
+      <div class="altrow">
+        <span class="timing">0.000002s
+        </span>
+        <span class="success">✔</span>
+       MyLibrary.Facts.DayHelperFact+ToFriendlyText.SingleDay(day: 19, expected: \"19\")<br clear="all" /></div>
+      <div class="row">
+        <span class="timing">0.0000335s
+        </span>
+        <span class="success">✔</span>
+       MyLibrary.Facts.DayHelperFact+ToFriendlyText.SingleDay(day: 2, expected: \"2\")<br clear="all" /></div>
+      <div class="altrow">
+        <span class="timing">0.0000016s
+        </span>
+        <span class="success">✔</span>
+       MyLibrary.Facts.DayHelperFact+ToFriendlyText.SingleDay(day: 20, expected: \"20\")<br clear="all" /></div>
+      <div class="row">
+        <span class="timing">0.000002s
+        </span>
+        <span class="success">✔</span>
+       MyLibrary.Facts.DayHelperFact+ToFriendlyText.SingleDay(day: 21, expected: \"21\")<br clear="all" /></div>
+      <div class="altrow">
+        <span class="timing">0.000002s
+        </span>
+        <span class="success">✔</span>
+       MyLibrary.Facts.DayHelperFact+ToFriendlyText.SingleDay(day: 22, expected: \"22\")<br clear="all" /></div>
+      <div class="row">
+        <span class="timing">0.0000016s
+        </span>
+        <span class="success">✔</span>
+       MyLibrary.Facts.DayHelperFact+ToFriendlyText.SingleDay(day: 23, expected: \"23\")<br clear="all" /></div>
+      <div class="altrow">
+        <span class="timing">0.0000016s
+        </span>
+        <span class="success">✔</span>
+       MyLibrary.Facts.DayHelperFact+ToFriendlyText.SingleDay(day: 24, expected: \"24\")<br clear="all" /></div>
+      <div class="row">
+        <span class="timing">0.0000036s
+        </span>
+        <span class="success">✔</span>
+       MyLibrary.Facts.DayHelperFact+ToFriendlyText.SingleDay(day: 25, expected: \"25\")<br clear="all" /></div>
+      <div class="altrow">
+        <span class="timing">0.0000016s
+        </span>
+        <span class="success">✔</span>
+       MyLibrary.Facts.DayHelperFact+ToFriendlyText.SingleDay(day: 26, expected: \"26\")<br clear="all" /></div>
+      <div class="row">
+        <span class="timing">0.0000016s
+        </span>
+        <span class="success">✔</span>
+       MyLibrary.Facts.DayHelperFact+ToFriendlyText.SingleDay(day: 27, expected: \"27\")<br clear="all" /></div>
+      <div class="altrow">
+        <span class="timing">0.000002s
+        </span>
+        <span class="success">✔</span>
+       MyLibrary.Facts.DayHelperFact+ToFriendlyText.SingleDay(day: 28, expected: \"28\")<br clear="all" /></div>
+      <div class="row">
+        <span class="timing">0.0000016s
+        </span>
+        <span class="success">✔</span>
+       MyLibrary.Facts.DayHelperFact+ToFriendlyText.SingleDay(day: 29, expected: \"29\")<br clear="all" /></div>
+      <div class="altrow">
+        <span class="timing">0.0000036s
+        </span>
+        <span class="success">✔</span>
+       MyLibrary.Facts.DayHelperFact+ToFriendlyText.SingleDay(day: 3, expected: \"3\")<br clear="all" /></div>
+      <div class="row">
+        <span class="timing">0.0000024s
+        </span>
+        <span class="success">✔</span>
+       MyLibrary.Facts.DayHelperFact+ToFriendlyText.SingleDay(day: 30, expected: \"30\")<br clear="all" /></div>
+      <div class="altrow">
+        <span class="timing">0.0000016s
+        </span>
+        <span class="success">✔</span>
+       MyLibrary.Facts.DayHelperFact+ToFriendlyText.SingleDay(day: 31, expected: \"31\")<br clear="all" /></div>
+      <div class="row">
+        <span class="timing">0.0000036s
+        </span>
+        <span class="success">✔</span>
+       MyLibrary.Facts.DayHelperFact+ToFriendlyText.SingleDay(day: 4, expected: \"4\")<br clear="all" /></div>
+      <div class="altrow">
+        <span class="timing">0.0000024s
+        </span>
+        <span class="success">✔</span>
+       MyLibrary.Facts.DayHelperFact+ToFriendlyText.SingleDay(day: 5, expected: \"5\")<br clear="all" /></div>
+      <div class="row">
+        <span class="timing">0.0000016s
+        </span>
+        <span class="success">✔</span>
+       MyLibrary.Facts.DayHelperFact+ToFriendlyText.SingleDay(day: 6, expected: \"6\")<br clear="all" /></div>
+      <div class="altrow">
+        <span class="timing">0.000002s
+        </span>
+        <span class="success">✔</span>
+       MyLibrary.Facts.DayHelperFact+ToFriendlyText.SingleDay(day: 7, expected: \"7\")<br clear="all" /></div>
+      <div class="row">
+        <span class="timing">0.000002s
+        </span>
+        <span class="success">✔</span>
+       MyLibrary.Facts.DayHelperFact+ToFriendlyText.SingleDay(day: 8, expected: \"8\")<br clear="all" /></div>
+      <div class="altrow">
+        <span class="timing">0.000002s
+        </span>
+        <span class="success">✔</span>
+       MyLibrary.Facts.DayHelperFact+ToFriendlyText.SingleDay(day: 9, expected: \"9\")<br clear="all" /></div>
+    </div>
+    <h3>
+      <span class="timing">0.040s
+            </span>
+      <span class="clickable" onclick="ToggleClass('classID0E3H')" ondblclick="ToggleClass('classID0E3H')">
+        <span class="success">✔</span>
+               MyLibrary.Facts.FillUpFact+Kml
+               <span class="testcount">
+                (5 tests)
+              </span></span>
+      <br clear="all" />
+    </h3>
+    <div class="indent" style="display: none;" id="classID0E3H">
+      <div class="row">
+        <span class="timing">0.0333605s
+        </span>
+        <span class="success">✔</span>
+       MyLibrary.Facts.FillUpFact+Kml.FirstFillUp_Null<br clear="all" /></div>
+      <div class="altrow">
+        <span class="timing">0.0041407s
+        </span>
+        <span class="success">✔</span>
+       MyLibrary.Facts.FillUpFact+Kml.SecondFillUp<br clear="all" /></div>
+      <div class="row">
+        <span class="timing">0.0024849s
+        </span>
+        <span class="success">✔</span>
+       MyLibrary.Facts.FillUpFact+Kml.TwoFillUp(odo1: 35000, litters1: 52.991, odo2: 35422, litters2: 50.182, expected: 8.41)<br clear="all" /><h6>Output:</h6><pre>     35000      52.99       8.41
+     35422      50.18           
+</pre></div>
+      <div class="altrow">
+        <span class="timing">0.0000217s
+        </span>
+        <span class="success">✔</span>
+       MyLibrary.Facts.FillUpFact+Kml.TwoFillUp(odo1: 35422, litters1: 50.182, odo2: 36003, litters2: 64.444, expected: 9.02)<br clear="all" /><h6>Output:</h6><pre>     35422      50.18       9.02
+     36003      64.44           
+</pre></div>
+      <div class="row">
+        <span class="timing">0.0000134s
+        </span>
+        <span class="success">✔</span>
+       MyLibrary.Facts.FillUpFact+Kml.TwoFillUp(odo1: 36003, litters1: 64.444, odo2: 36395, litters2: 42.833, expected: 9.15)<br clear="all" /><h6>Output:</h6><pre>     36003      64.44       9.15
+     36395      42.83           
+</pre></div>
+    </div>
+  </body>
+</html>
